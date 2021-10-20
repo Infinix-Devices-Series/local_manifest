@@ -4,7 +4,14 @@
         <remote name="xoo2001"
                 fetch="https://github.com/Infinix-MT6768-Series" />
 
-        <project path="device/infinix/hot10" name="android_device_infinix_hot10" remote="xoo2001" revision="lineage-17.1" clone-depth="1" />
-        <project path="vendor/infinix/hot10" name="android_vendor_infinix_hot10" remote="xoo2001" revision="lineage-17.1" clone-depth="1" />
+         <remote name="pixel"
+                fetch="https://github.com/PixelExperience" />    
+            
+        <project path="device/infinix/hot10" name="android_device_infinix_hot10" remote="xoo2001" revision="aosp-11" clone-depth="1" />
+        <project path="vendor/infinix/hot10" name="android_vendor_infinix_hot10" remote="xoo2001" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="eleven" clone-depth="1" />
+        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="xoo2001" revision="eleven" clone-depth="1" />
+        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="pixel" revision="eleven" clone-depth="1" />
+        <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="pixel" revision="eleven" clone-depth="1" />
 
 </manifest>
