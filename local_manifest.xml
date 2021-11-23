@@ -5,7 +5,7 @@
                 fetch="https://github.com/Infinix-MT6768-Series" />
 
             
-        <project path="device/infinix/hot10" name="android_device_infinix_hot10" remote="xoo2001" revision="11" clone-depth="1" />
+        <project path="device/infinix/hot10" name="android_device_infinix_hot10" remote="xoo2001" revision="nad-11" clone-depth="1" />
         <project path="vendor/infinix/hot10" name="android_vendor_infinix_hot10" remote="xoo2001" revision="lineage-18.1" clone-depth="1" />
         <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="xoo2001" revision="eleven" clone-depth="1" />
 
